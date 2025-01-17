@@ -287,7 +287,7 @@ section.active {
 
 .home-img .img-box .img-item img {
     position: absolute;
-    top: 3rem;
+    top: -50px;
     display: block;
     width: 85%;
     object-fit: cover;
