@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="active">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Service</a>
+            <a href="#">Resume</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <!-- bars background -->
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+    <!-- home section -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Khoththob.</h1>
+            <h2>I'm a
+                <span style="--i:4;" data-text="Fotografer">Fotografer</span>
+                <span style="--i:3;" data-text="Blogger">Blogger</span>
+                <span style="--i:2;" data-text="Progammer">Progammer</span>
+                <span style="--i:1;" data-text="Web Developer">Web Developer</span>
+            </h2>
+            <p>Halo, nama saya Khoththob, tapi kalau ada yang nyebut saya 'superhero tanpa jubah', saya nggak keberatan kok! Saya suka banget makan (tapi sayangnya nggak bisa masak, jadi lebih sering jadi penonton di dapur). Kalau lagi nggak sibuk, saya suka main game, walau lebih sering kalah, jadi bisa dibilang saya ahli dalam 'belajar dari kekalahan'. Oh ya, saya juga sering bikin orang bingung dengan kemampuan saya... misalnya, bisa ngobrol lama banget tentang hal-hal yang nggak penting, tapi tetap asyik! Senang bisa kenalan!</p>
+            <div class="btn-sci">
+                <a href="#" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://www.instagram.com/refeindh/"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://wa.me/+6289530602815"><i class='bx bxl-whatsapp' ></i></a>
+                    <a href="https://t.me/+6289530602815"><i class='bx bxl-telegram' ></i></a>
+                    <a href="https://github.com/refeindh"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="homee.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Web Development</h3>
+                <p>Web development is the process of building and maintaining a website. Web development aims to create a website that is attractive, fast, and meets user needs.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>UI/UX design is the process of designing the user interface (UI) and user experience (UX) on digital products.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Graphic design is the study of the art and practice of creating visual works to convey messages.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-trending-up' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>SEO</h3>
+                <p>SEO stands for Search Engine Optimization which means search engine optimization.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Video editing is the process of combining and manipulating images and sound into a complete video.</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera' ></i>
+                    <a href="#"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Photography</h3>
+                <p>Photography is the art of painting with light, namely the process of recording images using a camera.</p>
+            </div>
+        </div>
+    </section>
+    <!-- resume section -->
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Why Hire Me?</h2>
+                <p class="desc">I have strong technical skills, experience in application development, and am used to working in Agile teams. I focus on code quality and am always ready to learn new technologies to make maximum contributions.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About Me</button>
+            </div>
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">As a programmer, your experience can range from technical knowledge to teamwork skills. Here are some of the types of experience you can have or develop as a programmer:</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2023 - Present</p>
+                            <h3>Agile Development</h3>
+                            <p class="company">Metodologi Agile.</p>
+                            <p>Teams using Agile methodologies (such as Scrum or Kanban).</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2022 - 2023</p>
+                            <h3>Code Quality</h3>
+                            <p class="company">Integration Testing.</p>
+                            <p>Write automated tests using frameworks like JUnit, pytest, or Mocha.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2021 - 2022</p>
+                            <h3>DevOps</h3>
+                            <p class="company">Version Control.</p>
+                            <p>Git for code version management, team collaboration, and GitHub or GitLab workflows.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020 - 2021</p>
+                            <h3>Database</h3>
+                            <p class="company">Database Relasional.</p>
+                            <p>MySQL, PostgreSQL, or SQLite, as well as understanding concepts such as normalization and SQL queries.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2019 - 2020</p>
+                            <h3>Web Development</h3>
+                            <p class="company">Frontend Development.</p>
+                            <p>HTML, CSS, and JavaScript, as well as frontend frameworks like React, Angular, or Vue.js.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2018 - 2019</p>
+                            <h3>Basic Programming</h3>
+                            <p class="company">Programming language.</p>
+                            <p>Using various programming languages ​​such as Python, Java, C++, JavaScript, PHP, Ruby, or Go.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2020</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2017 - 2018</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2015 - 2017</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2012 - 2015</p>
+                            <h3>Progamming Course</h3>
+                            <p class="company">Online Course</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum temporibus dolorem ducimus beatae iure amet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">I am proficient in HTML, CSS, JavaScript, and React.js for Front-End development, and Node.js, Express.js, and MongoDB for Back-End. Experienced in using Git for version control and Docker for application management. Have good problem-solving skills and enjoy working in a team.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5' ></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-vuejs' ></i>
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb' ></i>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">I am a web developer with experience in building responsive and functional Full Stack applications.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name <span>Khoththob Q.</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender <span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languanges <span>Indonesian, English</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age <span>17 Years Old</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status <span>Single</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City <span>Mojokerto</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality <span>Indonesian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience <span>6+ Years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance <span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone <span>(+62) 895 3060 2815</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email <span>khoththobqr@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <div class="portfolio-detail active">
+                    <p class="numb">01</p>
+                    <h3>E-Commerce Application.</h3>
+                    <p>This app allows users to browse products, make purchases, and track orders.</p>
+                    <div class="tech">
+                        <p>Node.js, Express.js, MongoDB, MySQL</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>Task Management System</h3>
+                    <p>Users can add, edit, and delete tasks, as well as track the status of their tasks.</p>
+                    <div class="tech">
+                        <p>Vue.js, Node.js, Express.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>Blogging Application</h3>
+                    <p>Users can create, read, edit, and delete blogs, as well as comment on posts.</p>
+                    <div class="tech">
+                        <p>React.js, Node.js, MongoDB</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Social Media Platforms</h3>
+                    <p>Users can create accounts, post content, and interact with other users.</p>
+                    <div class="tech">
+                        <p>MongoDB, Express.js, AngularJS, Node.js, React.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Real-Time Chat Application</h3>
+                    <p>Using React.js on the front-end, Node.js and Socket.io for real-time communication on the back-end, and MongoDB to store conversation history.</p>
+                    <div class="tech">
+                        <p>React.js, Node.js, Socket.io, MongoDB</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>Financial Recording</h3>
+                    <p>This app allows users to track their expenses and analyze personal finances.</p>
+                    <div class="tech">
+                        <p>React.js , Express.js, Node.js</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="portfolio1.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio2.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio3.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio4.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio5.jpg">
+                        </div>
+                        <div class="img-item">
+                            <img src="portfolio6.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="navigation">
+                    <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                    <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Let's Work Together</h2>
+                <p class="desc">Let's work together to achieve a bigger goal, because with collaboration, we can strengthen each other and produce extraordinary things.</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone' ></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(+62) 895 3060 2815</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>khoththobqr@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map' ></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Mojokerto, East-Java, Indonesian</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
