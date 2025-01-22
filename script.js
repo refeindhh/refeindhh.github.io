@@ -122,3 +122,16 @@ arrowLeft.addEventListener('click', () => {
 
     activePortfolio();
 })
+
+function sendMessage() {
+    const name = document.getElementById('name').value;
+    const emailAddress = document.getElementById('emailAddress').value;
+    const number = document.getElementById('number').value;
+    const emailSubject = document.getElementById('emailSubject').value;
+    const message = document.getElementById('message').value;
+
+
+    const url = "https://api.whatsapp.com/send?phone=6289530602815&text=Halo%20Admin%2C%0ASaya%20*"+ name +"*%0AEmail%20Address%20*"+ emailAddress +"*%0ANomor%20*"+ number +"*%0AEmail%20Subject%20*"+ emailSubject +"*%0A%0A*"+ message +"*%0A"
+
+    window.open(url);
+}
